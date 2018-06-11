@@ -1,3 +1,21 @@
+#### Project 9
+
+###### This is the ninth of twelve projects for the Techdegree Full Stack JavaScript.
+
+This project uses the [Flickr API](https://www.flickr.com/services/api/explore/flickr.photos.search) and React to retrieve images based on user searches. 
+
+* `npm install` to install dependencies.
+
+* Add a  `config.js` file to `src` and add in
+
+```javascript
+const apiKey = "YOUR-API-KEY"; 
+export default apiKey;
+```
+
+* Then `npm start` to run.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
