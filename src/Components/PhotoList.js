@@ -4,27 +4,7 @@ import NoPhotos from './NoPhotos';
 
 
 const PhotoList = (props) => {
-  // let results;
-
-
-  console.log(props.matchObj.match.url)
-  
-  // if (props.matchObj.match.url === '/cats' && props.data.length === 4) {
-  //   results = props.data[1].photos.photo
-  // }  
-  // if (props.matchObj.match.url === '/dogs' && props.data.length === 4) {
-  //   results = props.data[2].photos.photo
-  // } 
-  // if (props.matchObj.match.url === '/computers' && props.data.length === 4) {
-  //   results = props.data[3].photos.photo
-  // } 
-  // if (props.matchObj.match.url === '/') {
-  //   results = props.data;
-  // }
-  
-
   const results = props.data;
-
 
   let images;
   if (results.length > 0) {
