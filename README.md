@@ -1,6 +1,6 @@
 #### Project 9
 
-###### This is the ninth of twelve projects for the Techdegree Full Stack JavaScript.
+###### This is my ninth project of twelve projects for the Techdegree Full Stack JavaScript.
 
 This project uses the [Flickr API](https://www.flickr.com/services/api/explore/flickr.photos.search) and React to retrieve images based on user searches. 
 
@@ -14,6 +14,12 @@ export default apiKey;
 ```
 
 * Then `npm start` to run.
+
+
+##### About this project's Exceeds mark
+* App displays a 404-like error routes for "Not Found" links.
+* App displays a loading indicator each time the app fetches new data.
+* If no matches found by the search, a message is displayed.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
