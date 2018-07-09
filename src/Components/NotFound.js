@@ -1,7 +1,7 @@
 import React from 'react';
 
 const NotFound = (props) => (
-  props.matchObj.location.pathname === '/search' ? 
+  props.match.location.pathname === '/search' ? 
   null
   :
   <div className="main-content not-found">

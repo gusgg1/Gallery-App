@@ -1,3 +1,5 @@
+# Gallery App
+
 #### Project 9
 
 ###### This is my ninth project of twelve projects for the Techdegree Full Stack JavaScript.

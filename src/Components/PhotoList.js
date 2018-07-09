@@ -1,27 +1,28 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Photo from './Photo';
-import NoPhotos from './NoPhotos';
+import Loading from 'react-loading-animation';
 
-
-const PhotoList = (props) => {
-  const results = props.data;
-
-  let images;
-  if (results.length > 0) {
-    images = results.map((photo) => 
-    <Photo url={`https://farm${photo.farm}.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}.jpg`} key={photo.id} alt={photo.title} />);
-  } else {
-    images = <NoPhotos />
+class PhotoList extends Component {
+ 
+  render() {
+    return (
+      <div className="photo-container">
+        {
+          this.props.match.match.url === '/' || this.props.match.match.url === '/search' ? 
+            <p><span className="styled">Results for:</span> {this.props.tag}</p>
+            :
+            null
+        }
+          
+        {
+          this.props.isLoading ? 
+            <Loading /> 
+            : 
+            <Photo match={this.props.match} images={this.props.images} />
+        }
+      </div>
+    );
   }
-
-  return (
-    <div className="photo-container">
-      <h2>Results</h2>
-      <ul>
-        {images}
-      </ul>
-    </div>
-  );
 }
 
 export default PhotoList;

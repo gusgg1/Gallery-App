@@ -61,14 +61,14 @@ input {
   -ms-align-items: flex-start;
   align-items: flex-start;
 }
+
 .photo-container ul li {
-  /* width: 220px; */
-  width: 23%;
+  width: 230px;
   height: 165px;
   overflow: hidden;
-  /* margin-bottom: 15px; */
-  margin: 1%;
+  margin-bottom: 15px;
 }
+
 .photo-container ul img {
   width: 100%;
   transform: scale(1.25);
@@ -92,6 +92,10 @@ input {
 .icn-error {
   font-size: 3.2em;
   margin-bottom: .25em;
+}
+
+.styled {
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 767px)  {
