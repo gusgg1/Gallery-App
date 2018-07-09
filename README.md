@@ -18,10 +18,13 @@ export default apiKey;
 * Then `npm start` to run.
 
 
-##### About this project's Exceeds mark
-* App displays a 404-like error routes for "Not Found" links.
-* App displays a loading indicator each time the app fetches new data.
-* If no matches found by the search, a message is displayed.
+### About this project's features:
+The image gallery contains a search bar and 3 default topics and accesses Flickr's image API for your search term then displays them accordingly.
+* On first load, the loading element shows then the default photos "borabora".
+* App displays a 404-like error for "Not Found" links / routes.
+* App displays a loading indicator each time the app fetches new data when using the Search component or on first load.
+  * This happens on first load and when using the search component.
+* If no matches found by the search, a "no results" message is displayed.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
