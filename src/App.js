@@ -13,7 +13,6 @@ import SearchForm from './Components/SearchForm';
 import Navigation from './Components/Navigation';
 import PhotoList from './Components/PhotoList';
 import NotFound from './Components/NotFound';
-import NoPhotos from './Components/NoPhotos';
 
 // Container App
 class App extends Component {
